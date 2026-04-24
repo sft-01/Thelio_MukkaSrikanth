@@ -1,4 +1,4 @@
-# Thelio: CAD Reconstruction Workspace
+# Thelio: CAD reverse engineering workflow
 
 **Thelio** is a streamlined environment designed to transform static reference geometry into dynamic, scriptable parametric models. By leveraging the `build123d` Python library, it integrates exported CAD data—such as Fusion 360 JSON and STEP files—into a code-based modeling pipeline.
 
@@ -8,7 +8,7 @@ The primary demonstration, `PN_000668_v7.py`, reconstructs a complex T-bracket. 
 
 ---
 
-## Project Motivation
+## Motivation
 
 Traditional CAD interoperability is often fragmented. Native files are frequently locked to specific software or difficult to use in automated pipelines. Thelio treats these "final" exports as raw inputs for a repeatable reconstruction process:
 
